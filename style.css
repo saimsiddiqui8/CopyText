@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#textarea{
+    resize: none;
+    padding: auto;
+    
+}
+h1{
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.paragraph{
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#textarea:focus{
+    background-color: #f8f8f8;
+    color: #312222;
+}
+
+.btn-primary{
+    margin-left: 35%;
+}
+::selection{
+	background-color: #afa8a8;
+    color: white;
+}
